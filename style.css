@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');
+body{
+  overflow-x: hidden;
+}
+.offset:before{
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+#fire {
+  color: rgb(226, 88, 34);
+  size: 10px;
+}
+.navbar{
+  background: rgba(0,0,0,0.6)!important;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #E25822;
+}
+.home-inner{
+  background-image: url(img/computers.png)
+}
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 20;
+  color: white;
+}
+.caption h1{
+  font-size: 3.8rem;
+  text-shadow: none;
+  padding-bottom: 1rem;
+}
+.caption p{
+  padding-bottom: 1.6rem;
+}
+.btn-lg{
+  border-radius: 5px;
+  padding: .6rem;
+}
+.narrow{
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1{
+    font-size: 2.4rem;
+}
+.btn-secondary{
+  border-radius: 5px;
+  border-width: medium;
+  text-transform: none;
+  padding: .6rem;
+  background: rgb(226, 88, 34)!important;
+  color: white!important;
+  border-color: rgb(226, 88, 34)!important;
+}
+.jumbotron{
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+h1.heading{
+  font-size: 2rem;
+  text-transform: none;
+  text-align: center;
+}
+.heading-underline{
+  width: 3rem;
+  height: .2rem;
+  margin: 0 auto 2rem;
+  background-color: rgb(226, 88, 34);
+}
+.feature h3{
+  font-size: 1.3rem;
+  padding-bottom: 0rem;
+}
+.feature p{
+  font-size: 1.1rem;
+}
+footer{
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+  text-align: center!important;
+  align-items: center!important;
+}
+footer i{
+  height: 3rem!important;
+  margin: 1.5rem 0!important;
+}
+footer a{
+  color: white!important;
+} 
+footer svg.svg-inline--fa{
+  font-size: 1.6rem!important;
+  margin: 1.2rem .5rem 0 0!important;
+}
+footer svg.svg-inline--fa:hover{
+  color: rgb(226, 88, 34)!important;
+}
+hr.socket{
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
+}
+.col-md-5{
+  align-items: center!important;
+}
